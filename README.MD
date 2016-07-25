@@ -1,10 +1,6 @@
-# ReactJS Simple Seed
+# ReactJS Basics
 
-That's a very simple ReactJS Seed Project. No Flux, no Redux, no Testing. Just ReactJS with Webpack and Babel.
+This repository accompanies my ReactJS - Basics YouTube Series.
 
 # Usage
-Clone this Repository, then run `npm install`.
-
-`npm run build` to build the project and run webpack-dev-server.
-
-`npm run build:prod` to build for production.
+Switch to the branch you're interested in (branches = different stages in the series) and compare/ download the source code.
