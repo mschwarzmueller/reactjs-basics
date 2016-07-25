@@ -6,11 +6,12 @@ class App extends React.Component {
 
     render() {
         return (
-            <div>
-                <h1>ReactJS Seed Project</h1>
-                <Home>
-                    My Home Component!
-                </Home>
+            <div className="container">
+                <div className="row">
+                    <div className="col-xs-10 col-xs-offset-1">
+                        <h1>ReactJS Basics</h1>
+                    </div>
+                </div>
             </div>
         );
     }
