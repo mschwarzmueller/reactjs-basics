@@ -16,7 +16,10 @@ var config = {
             {
                 test: /\.jsx?/,
                 include: SRC_DIR,
-                loader: 'babel'
+                loader: 'babel-loader',
+                query: {
+                    presets: ['react', 'es2015', 'stage-2']
+                }
             }
         ]
     }
