@@ -1,0 +1,9 @@
+{
+    "plugins": [
+        "react"
+    ],
+    "extends": ["google", "eslint:recommended", "plugin:react/recommended"],
+    "env": {
+        "browser": true
+    }
+}
