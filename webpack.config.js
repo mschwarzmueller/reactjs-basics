@@ -1,3 +1,4 @@
+var webpack = require("webpack");
 var path = require("path");
 
 var DIST_DIR = path.resolve(__dirname, "dist");
@@ -10,7 +11,7 @@ var config = {
         filename: "bundle.js",
         publicPath: "/app/"
     },
-    modules: {
+    module: {
         loaders: [
             {
                 test: /\.js?/,
