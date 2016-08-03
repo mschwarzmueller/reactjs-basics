@@ -10,7 +10,7 @@ var config = {
         filename: "bundle.js",
         publicPath: "/app/"
     },
-    modules: {
+    module: {
         loaders: [
             {
                 test: /\.js?/,
