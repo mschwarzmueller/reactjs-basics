@@ -14,9 +14,9 @@ export class Home extends React.Component {
         },3000);
     }
 
-    onMakeOlder() {
-        this.setState({
-            age: this.state.age + 3
+    onMakeOlder () {
+        this.setState((prevState, props) => {
+            return { age: prevState.age + 3 };
         });
     }
 
