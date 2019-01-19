@@ -5,8 +5,12 @@
   "main": "index.js",
   "scripts": {
     "start": "npm run build",
+    //These comaands are specific to bash/linux. Use the two commented lines below to use this in windows
     "build": "webpack -d && cp src/index.html dist/index.html && webpack-dev-server --content-base src/ --inline --hot",
     "build:prod": "webpack -p && cp src/index.html dist/index.html"
+    ////Uncomment the two lines below and replace with the two above in order to use this file in windows
+    //"build": "webpack -d && copy src\\index.html dist\\index.html /Y && webpack-dev-server --content-base src/ --inline --hot  --history-api-fallback",
+    //"build:prod": "webpack -p && copy src\\index.html dist\\index.html"
   },
   "keywords": [
     "reactjs"
