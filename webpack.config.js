@@ -1,3 +1,4 @@
+var webpack = require("webpack");
 var path = require("path");
 
 var DIST_DIR = path.resolve(__dirname, "dist");
